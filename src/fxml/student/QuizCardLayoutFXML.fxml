@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="129.0" prefWidth="290.0" style="-fx-background-color: white; -fx-background-radius: 40;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.student.QuizCardLayoutFXMLController">
+   <children>
+      <VBox layoutX="14.0" layoutY="-56.0" prefHeight="138.0" prefWidth="280.0" style="-fx-border-color: #c805f8; -fx-border-radius: 40; -fx-background-radius: 40; -fx-background-color: F9E6CF; -fx-border-width: 4;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="title" text="Quiz Title" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="noq" text="Number Of Questions : 25">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <FlowPane alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <JFXButton fx:id="startButton" onAction="#startQuiz" style="-fx-background-color: DA498D; -fx-background-radius: 40;" text="Start Quiz">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </FlowPane>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </VBox>
+   </children>
+   <effect>
+      <DropShadow blurType="TWO_PASS_BOX" color="#c3c1c1" height="14.83" radius="6.915" width="14.83" />
+   </effect>
+</AnchorPane>

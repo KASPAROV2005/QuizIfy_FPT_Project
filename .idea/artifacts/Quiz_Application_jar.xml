@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Quiz_Application:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Quiz_Application_jar</output-path>
+    <root id="archive" name="Quiz_Application.jar">
+      <element id="module-output" name="Quiz_Application" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../jfoenix-9.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../json-20240303.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../STUDY/T O O L S/javafx-sdk-17.0.13/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../controlsfx-11.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../sqlite-jdbc-3.47.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

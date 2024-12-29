@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="374.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <JFXTabPane prefHeight="374.0" prefWidth="332.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab fx:id="Student" style="-fx-background-color: #c805f8;" text="Student">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #5d5a5a;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" layoutY="69.0" prefHeight="301.0" prefWidth="251.0" AnchorPane.bottomAnchor="-44.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="69.0">
+                           <children>
+                              <Label text="Email :" textFill="WHITE" wrapText="true">
+                                 <VBox.margin>
+                                    <Insets left="20.0" right="20.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Arial Black" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Lighting diffuseConstant="2.0" specularConstant="0.76" specularExponent="37.4" surfaceScale="3.48">
+                                       <bumpInput>
+                                          <Shadow />
+                                       </bumpInput>
+                                       <light>
+                                          <Light.Distant>
+                                             <color>
+                                                <Color red="0.21052631735801697" green="0.6105263233184814" blue="0.8421052694320679" />
+                                             </color>
+                                          </Light.Distant>
+                                       </light>
+                                    </Lighting>
+                                 </effect>
+                              </Label>
+                              <TextField fx:id="studentEmail" promptText="Email" style="-fx-border-color: #8204f8; -fx-border-width: 3; -fx-border-radius: 30; -fx-background-radius: 30;">
+                                 <VBox.margin>
+                                    <Insets left="20.0" right="20.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="116.38" radius="79.5875" width="203.97" />
+                                 </effect>
+                              </TextField>
+                              <Label prefHeight="31.0" prefWidth="92.0" text="Password :" textFill="WHITE">
+                                 <VBox.margin>
+                                    <Insets left="20.0" right="20.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Arial Black" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Lighting bumpInput="$null" diffuseConstant="2.0" specularConstant="1.43" specularExponent="40.0" surfaceScale="3.79">
+                                       <light>
+                                          <Light.Distant>
+                                             <color>
+                                                <Color red="0.1661793440580368" green="0.5018112659454346" blue="0.8157894611358643" />
+                                             </color>
+                                          </Light.Distant>
+                                       </light>
+                                    </Lighting>
+                                 </effect>
+                              </Label>
+                              <PasswordField fx:id="studentPassword" promptText="Password" style="-fx-background-radius: 30; -fx-border-color: #8204f8; -fx-border-radius: 30; -fx-border-width: 3;">
+                                 <VBox.margin>
+                                    <Insets left="20.0" right="20.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="114.44" radius="79.6925" width="206.33" />
+                                 </effect>
+                              </PasswordField>
+                              <Button fx:id="studentLoginButton" alignment="CENTER" mnemonicParsing="false" onAction="#loginStudent" prefHeight="37.0" prefWidth="327.0" style="-fx-background-radius: 20; -fx-border-color: #8204f8; -fx-border-radius: 20; -fx-border-width: 3; -fx-background-color: #c805f8;" text="Login">
+                                 <padding>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="20.0" right="20.0" top="15.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="118.33" radius="80.5625" width="205.92">
+                                       <color>
+                                          <Color red="0.6220009922981262" green="0.15119999647140503" blue="0.6299999952316284" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab style="-fx-background-color: #9a0dda;" text="Teacher Account">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #5d5a5a;">
+                     <children>
+                        <VBox alignment="TOP_CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="251.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+                           <children>
+                              <Label text="Email :" textFill="WHITE">
+                                 <VBox.margin>
+                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Lighting diffuseConstant="2.0">
+                                       <bumpInput>
+                                          <Reflection />
+                                       </bumpInput>
+                                       <light>
+                                          <Light.Distant>
+                                             <color>
+                                                <Color red="0.6399999856948853" green="0.3776000142097473" blue="0.6030511856079102" />
+                                             </color>
+                                          </Light.Distant>
+                                       </light>
+                                    </Lighting>
+                                 </effect>
+                              </Label>
+                              <TextField fx:id="adminEmail" promptText="Email" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #2198d4; -fx-border-width: 3;">
+                                 <VBox.margin>
+                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="114.44" radius="82.50999999999999" width="217.6" />
+                                 </effect>
+                              </TextField>
+                              <Label text="Password :" textFill="WHITE">
+                                 <VBox.margin>
+                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Arial Black" size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <Lighting bumpInput="$null" diffuseConstant="2.0" specularConstant="0.38" specularExponent="31.6" surfaceScale="7.53">
+                                       <light>
+                                          <Light.Distant>
+                                             <color>
+                                                <Color red="0.713445782661438" green="0.26310375332832336" blue="0.7543859481811523" />
+                                             </color>
+                                          </Light.Distant>
+                                       </light>
+                                    </Lighting>
+                                 </effect>
+                              </Label>
+                              <PasswordField fx:id="adminPassword" promptText="Password" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-COLOR: #2198d4; -fx-border-width: 3;">
+                                 <VBox.margin>
+                                    <Insets left="10.0" right="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="118.33" radius="82.51" width="213.71" />
+                                 </effect>
+                              </PasswordField>
+                              <Button fx:id="adminLoginButton" alignment="CENTER" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="37.0" prefWidth="316.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #2198d4; -fx-border-width: 3; -fx-background-color: #bce0f2;" text="Login">
+                                 <VBox.margin>
+                                    <Insets left="10.0" right="10.0" top="20.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="5.0" top="5.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow height="128.06" radius="85.91499999999999" width="217.6">
+                                       <color>
+                                          <Color red="0.16772255301475525" green="0.8331640958786011" blue="0.9210526347160339" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets left="20.0" right="20.0" />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" right="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+         </tabs>
+      </JFXTabPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../resources/minilogo.png" />
+         </image>
+         <effect>
+            <DropShadow height="30.73" radius="40.275" spread="0.25" width="132.37" />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

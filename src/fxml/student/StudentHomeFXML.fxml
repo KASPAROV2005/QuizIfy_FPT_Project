@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="797.0" prefWidth="1499.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.student.StudentHomeFXMLController">
+   <children>
+      <ImageView fitHeight="936.0" fitWidth="1525.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/bg.jpg" />
+         </image>
+      </ImageView>
+      <JFXTabPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab fx:id="dashboard" style="-fx-background-color: #6d59a7;" text="Dashboard" />
+            <Tab fx:id="allQuizzes" style="-fx-background-color: #7c6cac;" text="All Quizzes" />
+            <Tab fx:id="attempedQuizzes" style="-fx-background-color: #ccc4ec;" text="Attemped Quizzes" />
+         </tabs>
+      </JFXTabPane>
+   </children>
+</AnchorPane>
