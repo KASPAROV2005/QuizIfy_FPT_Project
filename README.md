@@ -1,2 +1,2 @@
-# Quiz_application_javafx
+# QuizIfy_FPT_Project
  
