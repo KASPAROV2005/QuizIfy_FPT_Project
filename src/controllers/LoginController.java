@@ -36,10 +36,10 @@ public class LoginController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // Pre-fill some credentials for testing (remove for production)
-        this.studentEmail.setText("dee@gmail.com");
-        this.studentPassword.setText("123456789");
-        this.adminEmail.setText("admin@gmail.com");
-        this.adminPassword.setText("123456");
+        this.studentEmail.setText("");
+        this.studentPassword.setText("");
+        this.adminEmail.setText("FPT_Quizify@edu.uiz.ac.ma");
+        this.adminPassword.setText("");
     }
 
     @FXML
